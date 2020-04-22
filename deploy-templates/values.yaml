@@ -1,0 +1,16 @@
+name: java-maven-java11
+namespace: ""
+cdPipelineName: ""
+cdPipelineStageName: ""
+dnsWildcard: eks-demo.aws.main.edp.projects.epam.com
+
+database:
+  required: false
+
+
+ingress:
+  required: false
+
+image:
+  name: java-maven-java11
+  version: latest
